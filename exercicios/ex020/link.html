@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{ /*Deixa os links vermelhos, sem efeitos e em negrito.*/
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{ /*Caso o link ja tenha sido visitado ele ficara assim*/
+            color: rgb(77, 231, 6);
+        }
+        a:hover{/*Ao passar o mouse em cima ele ficara preto e subinhado*/
+            color:black;
+            text-decoration: underline;
+        }
+        a:active{/*Ao clicar no link ele ficara amarelo(é apenas ao clicar, ele volta ao soltar)*/
+            color: yellow;
+        }
+
+        a::after{/*esse é um pseudo elemento, ele ira adicionar a palavra "[link]" em azul depois de cada link
+        */
+            content: '[link]';
+            color: rgba(0, 0, 255, 0.363);
+        }
+        .especial{
+            background-color: rgba(165, 42, 42, 0.425);
+        }
+        .especial::after{ /*Cria uma "<" DEPOIS do link em todos os "especial", (A "<" sera azul pois o comando anterior ja o torna azul.)*/
+            content: '<';
+        }
+        .especial::before{/*Cria uma ">" ANTES do link em todos os "especial",(tem que dizer que é azul pois nem um comando antes o torna azul) */
+            content: '>';
+            color: rgba(0, 0, 255, 0.363)
+        }
+    </style>
+</head>
+<body>
+    <h1>Pesonalizando links</h1>
+    <ul>
+        <li>
+            <a href="https://gustavoguanabara.github.io/" class="especial">Repositório GitHub</a>
+        </li>
+        <li>
+            <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios">Canal Youtube</a>
+        </li>
+        <li>
+            <a href="https://www.cursoemvideo.com/">Site do Curso Em Video</a>
+        </li>
+    </ul>
+</body>
+</html>

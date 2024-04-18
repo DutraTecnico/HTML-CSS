@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+Em HTML é id = em CSS é #
+UNICO. Ao utilizar o ID, há uma regra que só é permitido utilizar um unico ID por documento.
+
+Em HTML é class = em CSS é .
+MULTIPLOS. Pode ter varios elementos com a mesma classe.
+
+hierarquia = Original -> class -> ID
+*/
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: rgb(1, 138, 92); 
+}
+#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+
+h2{
+    color: rgb(0, 56, 37);
+}
+.basico{
+    color: rgb(0, 56, 37);
+}
+.intermediario{
+    color: rgb(92, 99, 0);
+}
+.avancado{
+    color: rgb(129, 1, 1);
+}
+.destaque{
+    background-color: rgba(121, 121, 0, 0.253);
+}

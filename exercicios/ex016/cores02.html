@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{/*essa é uma configuração global*/
+            /*essa linha é apenas para caso queira fazer um efeito degrade de cima para baixo assim ela não fica "zebrada". */
+            height: 100%;
+
+        }
+       
+        body{
+             /*Essa função cria um degrade de duas cores ou mais, basta escolher o lado que inicia e as cores. */
+            background-image: linear-gradient(to bottom, #1648D5, #CE1EC9, #FD0240, #FF163D, #FFC805);
+            
+
+            /*Deixa o fundo fixo*/
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+    
+    
+</body>
+</html>
