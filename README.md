@@ -1,7 +1,7 @@
 # HTML-CSS
 
  <p>Esses são alguns dos exercicios feitos por mim ao longo dos meus estudos.</p>
- <p>Para ver o documento de cada um deles click <a href="https://github.com/DutraTecnico/html-css/tree/main/exercicios">aqui</a></p>
+ <p>Para ver o documento de cada um deles click <a href="https://github.com/DutraTecnico/html-css/tree/main/exercicios">aqui.</a></p>
 
  <li><a href="exercicios/ex001/index.html">Exercicio 1</a>
  <li><a href="exercicios/ex002/index.html">Exercicio 2</a>
