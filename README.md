@@ -29,6 +29,7 @@
  <hr>
  <h2>Sites</h2>
  <p>Esse são sites criados com base nos exercicios acima</p>
+ <p>Para ver o documento de cada um deles click <a href="https://github.com/DutraTecnico/html-css/tree/main/desafios">aqui</a></p>
  <li><a href="desafios/Android/index.html">Android</a>
 
 
