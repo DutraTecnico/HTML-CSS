@@ -26,8 +26,8 @@
  <li><a href="exercicios/ex020/hover.html">Exercicio 20</a>
  <li><a href="exercicios/ex021/caixa01.html">Exercicio 21</a>
  <li><a href="exercicios/ex022/fundo001.html">Exercicio 22</a>
- <hr>
  <li> <a href="exercicios/ex023/tabela001.html">Exercicio 23</a>
+ <hr>
  <h2>Sites</h2>
  <p>Esse são sites criados com base nos exercicios acima</p>
  <p>Para ver o documento de cada um deles click <a href="https://github.com/DutraTecnico/html-css/tree/main/desafios">aqui</a>.</p>
