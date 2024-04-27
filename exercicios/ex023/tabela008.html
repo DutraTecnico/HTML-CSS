@@ -2,10 +2,75 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela Treino</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table.tb1{
+            border-collapse: collapse;
+            margin: auto;
+            
+            
+        }
+        th{
+            border: 2px solid black;
+            background-color: gray;
+            padding: 5px;
+        }
+        th.pais{
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        th.estado{
+            background-color: green;
+        }
+        td{
+            border: 2px solid black;
+            background-color: rgba(153, 205, 50, 0.685);
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
+    <table class="tb1">
+        <tr>
+            <th class="pais" scope="rowgroup" colspan="2">Brasil</th>
+        </tr>
+        <tr>
+            <th scope="row">Estado</th>
+            <th scope="row">Time</th>
+        </tr>
+        <tr>
+            <th class="estado" scope="colgroup" rowspan="4">São Paulo</th>
+            <td>São Paulo</td>
+        </tr>
+        <tr>
+            <td>Santos</td>
+        </tr>
+        <tr>
+            <td>Corinthias</td>
+        </tr>
+        <tr>
+            <td>Palmeiras</td>
+        </tr>
+        <tr>
+            <th class="estado" scope="colgroup" rowspan="4">Rio de Janeiro</th>
+            <td>Flamengo</td>
+            
+        </tr>
+        <tr>
+            <td>Botafogo</td>
+        </tr>
+        <tr>
+            <td>Vasco</td>
+        </tr>
+        <tr>
+            <td>Fluminense</td>
+        </tr>
+    </table>
     
 </body>
 </html>
