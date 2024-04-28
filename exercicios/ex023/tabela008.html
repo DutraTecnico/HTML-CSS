@@ -20,7 +20,8 @@
             background-color: gray;
             padding: 5px;
         }
-        th.pais{
+        caption{
+            border: 2px solid black;
             background-color: rgb(0, 0, 0);
             color: white;
         }
@@ -36,15 +37,13 @@
 </head>
 <body>
     <table class="tb1">
+<caption>Brasil</caption>
         <tr>
-            <th class="pais" scope="rowgroup" colspan="2">Brasil</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Time</th>
         </tr>
         <tr>
-            <th scope="row">Estado</th>
-            <th scope="row">Time</th>
-        </tr>
-        <tr>
-            <th class="estado" scope="colgroup" rowspan="4">São Paulo</th>
+            <th class="estado" scope="rowgroup" rowspan="4">São Paulo</th>
             <td>São Paulo</td>
         </tr>
         <tr>
@@ -57,7 +56,7 @@
             <td>Palmeiras</td>
         </tr>
         <tr>
-            <th class="estado" scope="colgroup" rowspan="4">Rio de Janeiro</th>
+            <th class="estado" scope="rowgroup" rowspan="4">Rio de Janeiro</th>
             <td>Flamengo</td>
             
         </tr>
