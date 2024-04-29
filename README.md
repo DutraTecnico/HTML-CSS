@@ -27,6 +27,7 @@
  <li><a href="exercicios/ex021/caixa01.html">Exercicio 21</a>
  <li><a href="exercicios/ex022/fundo001.html">Exercicio 22</a>
  <li> <a href="exercicios/ex023/tabela001.html">Exercicio 23</a>
+ <li> <a href="exercicios/ex024/iframe001.html">Exercicio 24</a>
  <hr>
  <h2>Sites</h2>
  <p>Esse são sites criados com base nos exercicios acima</p>
